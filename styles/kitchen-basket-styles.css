@@ -1,0 +1,107 @@
+
+body
+{
+	font-family:'Montserrat';
+}
+.header{
+	color:#FAFCFC;
+	background-color:#A7EDD4 !important;
+	font-size: 40px;
+}
+.header-1{
+	width: 90vw;
+}
+#tableHeader{
+font-weight:bold;
+}
+#quantityField{
+	width:50px;
+	font-size: 16px;
+
+}
+#accountDetails{
+	font-size:15px;
+	padding: 5px;
+	margin-top:5px;
+	text-align:right;
+}
+#rechargeButton{
+background-color:#A7EDD4;
+	/*background-color: #A7EDD4;
+	padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	color: black;
+	border:none;*/
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+	
+}
+#itemTable th,#itemTable td{
+border-bottom: 1px solid #ddd;
+}
+#itemTable {
+overflow:hidden;
+float:center;
+ padding:8px;
+ margin:2px;
+  vertical-align: center;
+  text-align:center;
+  width: 50%;
+}
+#items{
+overflow-x:auto;
+}
+#itemNameCol{
+width:85px;
+}
+#itemPriceCol{
+width:60px;
+}
+#qty{
+width:60px;
+}
+#addButtonCell{
+width:60px;
+}
+#itemImageCol{
+width:170px;
+}
+#itemTable th{
+background-color: #D6DBDF;
+}
+#rechargeTable{
+ padding:8px;
+ margin:2px;
+ text-align:center;
+}
+#walletAmount,#summary{
+	color:#D34522;
+	font-weight:bold;
+}
+#addButton{
+background-color:#A7EDD4;
+}
+.button {
+
+    background-color: #A7EDD4; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#wallet{
+	color: #154589;
+	font-size: 16px;
+	font-weight: bold;
+}
+.navbar-brand{
+	padding:5px !important;
+}
